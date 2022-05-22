@@ -33,6 +33,7 @@ module.exports = {
       filename: 'index.html',
       inject: 'body',
     }),
+    // eslint-disable-next-line new-cap
     new dotEnv(),
   ],
 
